@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Cagliostro&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+
+body {
+    font-family : "Cagliostro";
+    background-color: aliceblue;
+}
+
+p {
+    font-size : 25px;
+    color : rgb(66, 66, 66);
+    text-align: justify;
+}
+
+.sobre_mi{
+    text-align: right;
+}
+
+.hueco-espaciador{
+    display: block;
+    background-color: #333;
+    width: 100%;
+    height: 100px;
+
+}
+
+header {
+    display: block;
+    font-family: "Fascinate Inline";
+    font-size : 80pt;
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+
+}
+
+
+nav {
+    position : fixed;
+    top : 0;
+    left : 0;
+    width : 100%;
+    background-color: #333;
+    padding : 20px;
+    z-index : 1000;
+    padding-right: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin : 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    
+}
+
+nav ul li {
+    margin : 15px;
+}
+
+
+
+nav ul li a {
+    color: #fff;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.espaciador-nav {
+    height: 30%;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;;
+}
+
+h1 {
+    display: block;
+    font-family : "Permanent Marker";
+    color: #fff;
+    font-size : 40pt;
+    border-width: 10px;
+    border-radius: 8px 18px 8px 18px;
+    background-color: #333;
+    border-color: rgb(181, 199, 194);
+    padding : 10px;
+    margin : 10px;
+
+}
+
+h2 {
+    font-family : "Permanent Marker";
+    font-size : 35pt;
+    color: #333;
+}
+
+h3 {
+    font-size : 30pt;
+    color: #333;
+}
+
+ul { 
+    font-size : 25px;
+    color : rgb(66, 66, 66);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    padding: auto;
+    border-radius: 10px;
+}
+
+.imagen{
+    vertical-align: center;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse : collapse;
+    background-color: white;
+    padding: 20px;
+}
+
+td {
+    vertical-align: center;
+    padding: 20px;
+}
+
+
+.columna1, .columna2, .columna3 {
+    text-align: justify;
+    border-right: 1px solid #ccc;
+    vertical-align: top;
+}
+
+.columna3 {
+border-right: none;
+}
+
+footer{
+    display: block;
+    position: static;
+    text-align: center;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #333;
+}
+
+.footer {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 30px;;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.Youtube {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    padding-right: 20px;
+}
